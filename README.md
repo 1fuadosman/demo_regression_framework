@@ -1,8 +1,8 @@
-# Wowcher Regression Framework
+# Demo Regression Framework
 
 ## Introduction
 
-The purpose of this framework is to automate regression tests on Wowcher desktop. 
+The purpose of this framework is to automate regression tests on desktop desktop. 
 
 ## Development Setup
 
