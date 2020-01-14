@@ -31,16 +31,10 @@ public class TestManager extends FrameworkInitialize {
         Settings.Logs.write("Test Cycle Created");
         initalizeBrowser(Settings.BrowserType);
         Settings.Logs.write("browser Initialized");
-        DriverContext.browser.goToUrl(Settings.AUT);
         DriverContext.browser.Maximize();
-        Settings.Logs.write("Navigated to URL " + Settings.AUT);
 
 
-        try {
-            ExcelUtil util = new ExcelUtil(Settings.excelSheetPath);
-        } catch (Exception e) {
 
-        }
     }
 
     @After
