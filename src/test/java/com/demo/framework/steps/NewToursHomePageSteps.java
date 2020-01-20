@@ -9,7 +9,6 @@ import cucumber.api.java.en.Then;
 import org.junit.Assert;
 import static org.hamcrest.CoreMatchers.is;
 
-
 public class NewToursHomePageSteps extends Base {
 
     NewToursHomePage newToursHomePage = new NewToursHomePage();
@@ -21,7 +20,20 @@ public class NewToursHomePageSteps extends Base {
 
     @Then("^I can see that the (.*) link is displayed$")
     public void i_can_see_that_the_SIGN_ON_link_is_displayed(String linkText) throws Throwable {
-        Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.signOnLinkTxt().contains(linkText), is(true));
+        switch (linkText) {
+            case "SIGN-ON":
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.signOnLinkTxt().contains(linkText), is(true));
+                break;
+            case "REGISTER":
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.registerLinkTxt().contains(linkText), is(true));
+                break;
+            case "SUPPORT":
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.supportLinkTxt().contains(linkText), is(true));
+                break;
+
+
+        }
+
     }
 
 
