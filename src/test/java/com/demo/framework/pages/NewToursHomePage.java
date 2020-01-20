@@ -19,6 +19,11 @@ public class NewToursHomePage extends BasePage {
     private WebElement supportLink;
 
 
+    @FindBy(how = How.LINK_TEXT, using = "CONTACT")
+    private WebElement contactLink;
+
+
+
     public String signOnLinkTxt() {
         return signOnLink.getText();
     }
@@ -31,6 +36,7 @@ public class NewToursHomePage extends BasePage {
         return supportLink.getText();
     }
 
+    public String contactLinkTxt() {return contactLink.getText();}
 
 
 }

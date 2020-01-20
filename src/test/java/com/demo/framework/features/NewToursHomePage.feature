@@ -13,3 +13,7 @@ Feature: New Tours Home Page Feature
     Given I access home page
     Then I can see that the SUPPORT link is displayed
 
+  Scenario: Verify user is able view Contact link in the home page
+    Given I access home page
+    Then I can see that the CONTACT link is displayed
+
