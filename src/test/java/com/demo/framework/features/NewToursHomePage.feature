@@ -20,3 +20,8 @@ Feature: New Tours Home Page Feature
   Scenario: Verify user is able view Flights in the home page
     Given I access home page
     Then I can see that the FLIGHTS link is displayed
+
+
+  Scenario: Verify user is able view Hotels in the home page
+    Given I access home page
+    Then I can see that the HOTELS link is displayed
