@@ -40,7 +40,7 @@ public class NewToursHomePageSteps extends Base {
 
 
             case "Hotels":
-                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.hotelsLinkTxt().contains(linkText), is(true));
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.hotelsOnLinkTxt().contains(linkText), is(true));
                 break;
 
         }
