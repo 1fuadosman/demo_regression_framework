@@ -26,7 +26,10 @@ public class NewToursHomePage extends BasePage {
     private WebElement flightLink;
 
     @FindBy(how = How.LINK_TEXT, using = "HOTELS")
-    private WebElement hotels;
+    private WebElement hotelsLink;
+
+    @FindBy(how = How.LINK_TEXT, using = "Car Rentals")
+    private WebElement carrentalsLink;
 
 
     public String signOnLinkTxt() {
@@ -46,5 +49,9 @@ public class NewToursHomePage extends BasePage {
     public String flightsLinkTxt() {return flightsLinkTxt(); }
 
     public String hotelsOnLinkTxt() { return hotelsOnLinkTxt(); }
+
+    public String carrentals() {
+        return carrentalsLink.getText();
+    }
 
 }
