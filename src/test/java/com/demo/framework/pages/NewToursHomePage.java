@@ -26,6 +26,10 @@ public class NewToursHomePage extends BasePage {
     private WebElement flightLink;
 
 
+    @FindBy(how = How.LINK_TEXT, using = "Cruises")
+    private WebElement cruises;
+
+
     public String signOnLinkTxt() {
         return signOnLink.getText();
     }
@@ -38,8 +42,18 @@ public class NewToursHomePage extends BasePage {
         return supportLink.getText();
     }
 
-    public String contactLinkTxt() {return contactLink.getText();}
+    public String contactLinkTxt() {
+    return contactLink.getText();
 
-    public String flightsLinkTxt(){return flightsLinkTxt(); }
+    }
+
+    public String flightsLinkTxt(){
+    return flightsLinkTxt();
+
+    }
+
+    public String cruisesLinktext () {
+        return cruisesLinktext();
+    }
 
 }
