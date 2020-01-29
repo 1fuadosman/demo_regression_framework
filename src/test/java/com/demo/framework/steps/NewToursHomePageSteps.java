@@ -39,6 +39,15 @@ public class NewToursHomePageSteps extends Base {
                 break;
 
 
+            case "Hotels":
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.hotelsOnLinkTxt().contains(linkText), is(true));
+                break;
+
+            case "Car Rentals":
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.carrentals().contains(linkText), is(true));
+                break;
+
+
         }
 
     }
