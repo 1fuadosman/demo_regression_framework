@@ -19,4 +19,4 @@ Feature: New Tours Home Page Feature
 
   Scenario: Verify user is able view Flights in the home page
     Given I access home page
-    Then I can see that the FLIGHTS link is displayed
+    Then I can see that the Flights link is displayed

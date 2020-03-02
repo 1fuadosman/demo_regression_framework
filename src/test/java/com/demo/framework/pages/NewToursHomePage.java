@@ -40,6 +40,6 @@ public class NewToursHomePage extends BasePage {
 
     public String contactLinkTxt() {return contactLink.getText();}
 
-    public String flightsLinkTxt(){return flightsLinkTxt(); }
+    public String flightsLinkTxt(){return flightLink.getText(); }
 
 }
