@@ -38,6 +38,27 @@ public class NewToursHomePageSteps extends Base {
                 Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.flightsLinkTxt().contains(linkText), is(true));
                 break;
 
+            case "Hotels":
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.hotelsLinkTxt().contains(linkText), is(true));
+                break;
+
+            case "Car Rentals":
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.carRentalsLinkTxt().contains(linkText), is(true));
+                break;
+
+            case "Cruises":
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.cruisesLinkTxt().contains(linkText), is(true));
+                break;
+
+            case "Destination":
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.destinationLink().contains(linkText), is(true));
+                break;
+
+            case "Vacation":
+                Assert.assertThat("Couldn't find the link text " + linkText + "'.", newToursHomePage.vacationsLink().contains(linkText), is(true));
+                break;
+
+
 
         }
 
