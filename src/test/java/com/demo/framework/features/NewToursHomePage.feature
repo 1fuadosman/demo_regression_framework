@@ -5,7 +5,7 @@ Feature: New Tours Home Page Feature
     Given I access home page
     Then I can see that the SIGN-ON link is displayed
 
-  Scenario: Verify user is able view the Register link in the home page
+  Scenario: Verify user is able view the Register link in the home pagegit
     Given I access home page
     Then I can see that the REGISTER link is displayed
 
@@ -20,3 +20,23 @@ Feature: New Tours Home Page Feature
   Scenario: Verify user is able view Flights in the home page
     Given I access home page
     Then I can see that the Flights link is displayed
+
+  Scenario: Verify user is able view the Hotels link in the home page
+    Given I access home page
+    Then I can see that the Hotels link is displayed
+
+  Scenario: Verify user is able view the Car Rentals link in the home page
+    Given I access home page
+    Then I can see that the Car Rentals link is displayed
+
+  Scenario: Verify user is able view the Cruises link in the home page
+    Given I access home page
+    Then I can see that the Cruises link is displayed
+
+  Scenario: Verify user is able view the Destination link in the home page
+    Given I access home page
+    Then I can see that the Destinations link is displayed
+
+  Scenario: Verify user is able view the Vacations link in the home page
+    Given I access home page
+    Then I can see that the  Vacations link is displayed
