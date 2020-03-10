@@ -70,7 +70,12 @@ public class NewToursHomePageSteps extends Base {
                 case "home":
                     DriverContext.browser.goToUrl(Settings.AUT);
                     break;
+                case "signIn":
+                    DriverContext.browser.goToUrl(Settings.AUT + "mercurysignon.php");
+                    break;
+
         }
+
 
     }
 
