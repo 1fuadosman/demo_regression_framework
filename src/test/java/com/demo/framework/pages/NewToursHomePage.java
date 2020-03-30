@@ -42,6 +42,10 @@ public class NewToursHomePage extends BasePage {
     @FindBy(how = How.LINK_TEXT, using = "Vacations")
     private WebElement vacationsLink;
 
+    @FindBy(how = How.LINK_TEXT, using = "SIGN-OFF")
+    private WebElement signOffLink;
+
+
     public String signOnLinkTxt() {
         return signOnLink.getText();
     }
@@ -67,4 +71,6 @@ public class NewToursHomePage extends BasePage {
     public String destinationLink() {return destinationsLink.getText(); }
 
     public String vacationsLink() {return vacationsLink.getText();}
+
+    public String signOfflink() {return signOffLink.getText();}
 }
