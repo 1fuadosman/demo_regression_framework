@@ -73,4 +73,9 @@ public class NewToursHomePage extends BasePage {
     public String vacationsLink() {return vacationsLink.getText();}
 
     public String signOfflink() {return signOffLink.getText();}
+
+    public void clickSignInLink(){
+        signOnLink.click();
+
+    }
 }
