@@ -18,6 +18,18 @@ public class NewToursHomePageSteps extends Base {
         navigateTo(pageName);
     }
 
+    @Given("^I click (.*) link$")
+    public void i_click_SIGN_ON_link(String linkText) throws Throwable {
+        switch (linkText) {
+            case "SIGN-ON":
+                newToursHomePage.clickSignInLink();
+        }
+
+
+    }
+
+
+
     @Then("^I can see that the (.*) link is displayed$")
     public void i_can_see_that_the_SIGN_ON_link_is_displayed(String linkText) throws Throwable {
         switch (linkText) {
