@@ -7,7 +7,8 @@ import org.openqa.selenium.support.How;
 
 public class NewToursHomePage extends BasePage {
 
-    public NewToursHomePage() {}
+    public NewToursHomePage() {
+    }
 
     @FindBy(how = How.LINK_TEXT, using = "SIGN-ON")
     private WebElement signOnLink;
@@ -58,24 +59,45 @@ public class NewToursHomePage extends BasePage {
         return supportLink.getText();
     }
 
-    public String contactLinkTxt() {return contactLink.getText();}
+    public String contactLinkTxt() {
+        return contactLink.getText();
+    }
 
-    public String flightsLinkTxt() {return flightLink.getText(); }
+    public String flightsLinkTxt() {
+        return flightLink.getText();
+    }
 
-    public String hotelsLinkTxt() {return hotelsLink.getText(); }
+    public String hotelsLinkTxt() {
+        return hotelsLink.getText();
+    }
 
-    public String carRentalsLinkTxt() {return carRentalsLink.getText(); }
+    public String carRentalsLinkTxt() {
+        return carRentalsLink.getText();
+    }
 
-    public String cruisesLinkTxt() {return cruisesLink.getText(); }
+    public String cruisesLinkTxt() {
+        return cruisesLink.getText();
+    }
 
-    public String destinationLink() {return destinationsLink.getText(); }
+    public String destinationLink() {
+        return destinationsLink.getText();
+    }
 
-    public String vacationsLink() {return vacationsLink.getText();}
+    public String vacationsLink() {
+        return vacationsLink.getText();
+    }
 
-    public String signOfflink() {return signOffLink.getText();}
+    public String signOfflink() {
+        return signOffLink.getText();
+    }
 
-    public void clickSignInLink(){
+    public void clickSignInLink() {
         signOnLink.click();
+    }
+
+    public void clickRegisterLink() {
+        registerLink.click();
 
     }
+
 }

@@ -23,6 +23,11 @@ public class NewToursHomePageSteps extends Base {
         switch (linkText) {
             case "SIGN-ON":
                 newToursHomePage.clickSignInLink();
+                break;
+            case "REGISTER":
+                newToursHomePage.clickRegisterLink();
+                break;
+
         }
 
 
