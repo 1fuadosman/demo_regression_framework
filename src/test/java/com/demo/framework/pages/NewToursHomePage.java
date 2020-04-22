@@ -98,6 +98,17 @@ public class NewToursHomePage extends BasePage {
     public void clickRegisterLink() {
         registerLink.click();
 
+
+        }
+
+    public void clickCruisesLink(){
+        cruisesLink.click();
+
+
+
+
+
+
     }
 
 }
