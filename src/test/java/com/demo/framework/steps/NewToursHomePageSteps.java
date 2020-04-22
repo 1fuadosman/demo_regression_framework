@@ -28,6 +28,10 @@ public class NewToursHomePageSteps extends Base {
                 newToursHomePage.clickRegisterLink();
                 break;
 
+            case "Cruises":
+                newToursHomePage.clickCruisesLink();
+                break;
+
         }
 
 
