@@ -1,6 +1,6 @@
 # Demo Regression Framework
 
-## Introduction 123
+## Introduction
 
 The purpose of this framework is to automate regression tests on desktop desktop. 
 
