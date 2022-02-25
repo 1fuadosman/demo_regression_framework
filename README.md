@@ -6,7 +6,7 @@ The purpose of this framework is to automate regression tests on desktop desktop
 
 ## Development Setup
 
-**Required tools**
+**Required tools** !!!!!
 
 * JDK 8
 * Git
